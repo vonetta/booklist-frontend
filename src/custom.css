@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css?family=Arima+Madurai:300,400,500,700");
+
+body {
+  padding: 0;
+  height: 100%;
+  overflow: visible !important;
+  font-family: "Arima Madurai", cursive;
+}
+
+nav {
+  box-shadow: 1px 1px 1px whitesmoke;
+  font-weight: 300;
+  font-family: "Arima Madurai", cursive;
+}
+
+.container-fluid {
+  font-family: "Arima Madurai", cursive;
+  height: 100vh;
+  overflow: visible !important;
+  background: -webkit-linear-gradient(45deg, #085078 10%, #85d8ce 90%);
+  background: -moz-linear-gradient(45deg, #085078 10%, #85d8ce 90%);
+  background: -ms-linear-gradient(45deg, #085078 10%, #85d8ce 90%);
+  background: -o-linear-gradient(45deg, #085078 10%, #85d8ce 90%);
+  background: linear-gradient(10deg, #085078 10%, #85d8ce 90%);
+  padding-top: 7%;
+}
+
+.bookList {
+  width: 72% !important;
+  margin: auto;
+  box-shadow: 2px 2px 5px slategray;
+  padding: 2.5%;
+  background-color: whitesmoke;
+  font-weight: 300;
+}
+
+.CircularProgressbar {
+  width: 5%;
+}
+
+.react-date-picker__wrapper {
+  border: none !important;
+}
